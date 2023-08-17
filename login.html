@@ -36,24 +36,6 @@
         </div>
     </div>
 
-    <!-- Include the Auth0 Lock library -->
-    <script src="https://cdn.auth0.com/js/lock/11.35/lock.min.js"></script>
-
-    <!-- Your Auth0 configuration and initialization -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const lock = new Auth0Lock('2uIj8VctgdlLIBkCuVf4l7cBGaLRm0m3', 'dev-caima32n0gmhpgcj.us.auth0.com', {
-                auth: {
-                    responseType: 'token id_token',
-                    redirectUrl: https://clickmeharder.github.io/sus-eu/index,
-                },
-            });
-
-            lock.show({
-                container: 'terminal', // Use the ID of the terminal div
-            });
-        });
-    </script>
 
     <!-- Include other scripts you need -->
     <script src="susterminal.js"></script>

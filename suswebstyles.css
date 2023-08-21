@@ -131,10 +131,10 @@ body {
 
 .mainslideshow {
     position: absolute;
-    top: 15%; /* Adjust the vertical position as needed */
-    left: 300px; /* Adjust the left space for the sidebar */
-    width: 480px; /* Adjust logo width as needed */
-    height: 480px; /* Adjust logo height as needed */
+    top: 35%; /* Adjust the vertical position as needed */
+    left: 260px; /* Adjust the left space for the sidebar */
+    width: 908px; /* Adjust logo width as needed */
+    height: 516px; /* Adjust logo height as needed */
     transform: translate(-50%, -50%);
     background-image: url('images/Mainslide/mainslide1.png');
     background-size: contain;

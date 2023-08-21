@@ -132,9 +132,9 @@ body {
 .mainslideshow {
     position: absolute;
     top: 35%; /* Adjust the vertical position as needed */
-    left: 220px; /* Adjust the left space for the sidebar */
-    width: 680px; /* Adjust logo width as needed */
-    height: 510px; /* Adjust logo height as needed */
+    left: 150px; /* Adjust the left space for the sidebar */
+    width: 595px;
+    height: 446px;
     transform: translate(-50%, -50%);
     background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;

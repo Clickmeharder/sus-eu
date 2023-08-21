@@ -129,6 +129,7 @@ body {
 
 /*-----------------------------------*/
 .main-container {
+    display: flex; /* Use flexbox to arrange elements side by side */
     margin-left: 6px; /* Adjust as needed based on the sidebar width */
     margin-right: 4px;
     margin-top: 4px;
@@ -142,8 +143,8 @@ body {
     overflow: hidden;
     z-index: 6; /* Place the element above the sidebar content */
 }
+
 .mainslideshow {
-    float: right; /* Float the slideshow to the right */
     width: 510px;
     height: 382.5px;
     background-image: url('images/Mainslide/eu-sus-image.jpg');
@@ -155,7 +156,6 @@ body {
 }
 
 .Welcometext {
-    float: left; /* Float the text container to the left */
     max-width: 20%; /* Add max-width property */
     height: 382.5px;
     background-color: #161616;
@@ -163,3 +163,4 @@ body {
     border-radius: 10px; /* Add border radius for rounded corners */
     opacity: 1; /* Adjust opacity as needed */
 }
+

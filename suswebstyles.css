@@ -157,3 +157,17 @@ body {
 
 }
 
+.Welcometext {
+    position: absolute;
+    top: 10px; /* Adjust the vertical position as needed */
+    left: 10px; /* Adjust the left space for the sidebar */
+    width: 300px;
+    height: 382.5px;
+    background-color: #161616;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid #333333; /* Add border to create a container effect */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    opacity: 1; /* Adjust opacity as needed */
+
+}

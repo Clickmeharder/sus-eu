@@ -130,7 +130,6 @@ body {
 
 /*-----------------------------------*/
 .main-container {
-    display: flex; /* Use flexbox to arrange elements side by side */
     margin-left: 6px; /* Adjust as needed based on the sidebar width */
     margin-right: 4px;
     margin-top: 4px;
@@ -158,6 +157,7 @@ body {
 }
 
 .Welcometext {
+    width: 15%;
     max-width: 15%; /* Add max-width property */
     height: 382.5px;
     background-color: #161616;

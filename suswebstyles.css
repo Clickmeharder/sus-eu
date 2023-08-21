@@ -134,12 +134,14 @@ body {
     top: 15%; /* Adjust the vertical position as needed */
     left: 300px; /* Adjust the left space for the sidebar */
     transform: translate(-50%, -50%);
-    width: 480px; /* Adjust the width as needed */
-    height: 480px; /* Adjust the height as needed */
+    width: auto; /* Set width to auto to match the original image width */
+    height: auto; /* Set height to auto to match the original image height */
+    max-width: 100%; /* Ensure the image doesn't exceed the available space */
+    max-height: 100%; /* Ensure the image doesn't exceed the available space */
     background-image: url('images/Mainslide/mainslide1.png');
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 1; /* Adjust opacity as needed */
+    opacity: 0.8; /* Adjust opacity as needed */
     z-index: 11; /* Place the element above the sidebar content */
 }
 

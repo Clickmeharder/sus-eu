@@ -150,6 +150,8 @@ body {
     background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    border: 2px solid #333333; /* Add border to create a container effect */
+    border-radius: 10px; /* Add border radius for rounded corners */
     opacity: 1; /* Adjust opacity as needed */
 
 }

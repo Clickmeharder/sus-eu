@@ -37,6 +37,7 @@ body {
     padding: 2px;
     border: 1px solid #333333; /* Add a 1px border with color #333333 */
     height: 100vh; /* Set the height to 100% of the viewport height */
+    width: auto;
 }
 /* ... (other CSS rules) ... */
 
@@ -143,7 +144,7 @@ body {
 }
 .mainslideshow {
     position: absolute;
-    top: 6%; /* Adjust the vertical position as needed */
+    top: 10px; /* Adjust the vertical position as needed */
     right: 10px; /* Adjust the left space for the sidebar */
     width: 510px;
     height: 382.5px;

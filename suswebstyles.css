@@ -15,7 +15,7 @@ body {
     background-image: url('images/blackleathertexture.jpg'); /* Corrected syntax */
     background-size: 93% 100%;
     border-right: 1px solid #333333; /* Soft gray border */
-	z-index: 10; /* Adjust the z-index to make sure it's below the button */
+    z-index: 10; /* Adjust the z-index to make sure it's below the button */
 }
 
 .sidebarlogo {
@@ -135,4 +135,16 @@ body {
     border: 1px solid #333333;
     position: relative;
     overflow: hidden;
+}
+
+.mainpagelogodisplay {
+    position: fixed;
+    top: 5%;
+    left: 30%;
+    height: 100vh;
+    width: auto;
+    background-image: url('images/mainsuslogo.png');
+    background-size: 93% 100%;
+    border: 1px solid #333333; /* Soft gray border */
+    z-index: 7; /* Adjust the z-index to make sure it's below the button */
 }

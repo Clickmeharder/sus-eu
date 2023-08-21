@@ -128,7 +128,22 @@ body {
 }
 
 /*-----------------------------------*/
-
+.main-container {
+    margin-left: 280px; /* Adjust as needed based on the sidebar width */
+    margin-right: 4px;
+    margin-top: 8px;
+    padding: 2px;
+    color: gold;
+    height: 100vh;
+    width: calc(100vw - 256px); /* Adjusted width to account for the sidebar width */
+    background-color: #121212;
+    position: relative;
+    right: 6;
+    overflow: auto;
+    border: 1px solid #333333; /* Add border to create a container effect */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden;
+}
 .mainslideshow {
     position: absolute;
     top: 35%; /* Adjust the vertical position as needed */

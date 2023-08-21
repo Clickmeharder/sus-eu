@@ -156,7 +156,6 @@ body {
 
 .Welcometext {
     float: left; /* Float the text container to the left */
-    width: 300px;
     max-width: 20%; /* Add max-width property */
     height: 382.5px;
     background-color: #161616;

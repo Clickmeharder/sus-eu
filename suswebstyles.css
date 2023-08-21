@@ -41,9 +41,9 @@ body {
 /* ... (other CSS rules) ... */
 
 .content {
-    margin-left: 65px;
+    margin-left: 20px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 2px;
     color: gold;
     height: 100vh;
     background-color: #121212;

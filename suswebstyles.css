@@ -134,5 +134,5 @@ body {
     background-color: #121212;
     border: 4px solid #FFD700;
     position: relative;
-    overflow: auto;
+    overflow: hidden;
 }

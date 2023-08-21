@@ -128,9 +128,9 @@ body {
 
 /*-----------------------------------*/
 .main-container {
-    margin-left: 259px; /* Adjust as needed based on the sidebar width */
+    margin-left: 4px; /* Adjust as needed based on the sidebar width */
     margin-right: 4px;
-    margin-top: 8px;
+    margin-top: 4px;
     padding: 2px;
     color: gold;
     height: 100vh;

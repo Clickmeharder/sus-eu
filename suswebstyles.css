@@ -130,6 +130,7 @@ body {
 
 /*-----------------------------------*/
 .main-container {
+    display: flex;
     margin-left: 6px; /* Adjust as needed based on the sidebar width */
     margin-right: 4px;
     margin-top: 4px;

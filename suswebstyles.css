@@ -157,6 +157,7 @@ body {
 .Welcometext {
     float: left; /* Float the text container to the left */
     width: 300px;
+    max-width: 20%; /* Add max-width property */
     height: 382.5px;
     background-color: #161616;
     border: 2px solid #333333; /* Add border to create a container effect */

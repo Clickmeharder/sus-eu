@@ -136,7 +136,7 @@ body {
     transform: translate(-50%, -50%);
     width: 480px; /* Adjust logo width as needed */
     height: 480px; /* Adjust logo height as needed */
-    background-image: url('images/mainslide/mainslide1.png');
+    background-image: url('images/Mainslide/mainslide1.png');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.8; /* Adjust opacity as needed */

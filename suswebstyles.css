@@ -143,9 +143,7 @@ body {
     z-index: 6; /* Place the element above the sidebar content */
 }
 .mainslideshow {
-    position: absolute;
-    top: 10px; /* Adjust the vertical position as needed */
-    right: 10px; /* Adjust the left space for the sidebar */
+    float: right; /* Float the slideshow to the right */
     width: 510px;
     height: 382.5px;
     background-image: url('images/Mainslide/eu-sus-image.jpg');
@@ -154,20 +152,14 @@ body {
     border: 2px solid #333333; /* Add border to create a container effect */
     border-radius: 10px; /* Add border radius for rounded corners */
     opacity: 1; /* Adjust opacity as needed */
-
 }
 
 .Welcometext {
-    position: absolute;
-    top: 10px; /* Adjust the vertical position as needed */
-    left: 10px; /* Adjust the left space for the sidebar */
+    float: left; /* Float the text container to the left */
     width: 300px;
     height: 382.5px;
     background-color: #161616;
-    background-size: contain;
-    background-repeat: no-repeat;
     border: 2px solid #333333; /* Add border to create a container effect */
     border-radius: 10px; /* Add border radius for rounded corners */
     opacity: 1; /* Adjust opacity as needed */
-
 }

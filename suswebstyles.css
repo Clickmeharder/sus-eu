@@ -50,6 +50,7 @@ body {
     width: calc(100vw - 280px); /* Adjusted width to account for the sidebar width */
     background-color: #121212;
     position: relative; /* Add relative positioning */
+    right: 0;
     overflow: auto; /* Add overflow for scrolling */
 }
 

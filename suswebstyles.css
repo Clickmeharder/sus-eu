@@ -124,3 +124,13 @@ body {
 	z-index: 9;
 }
 
+.adspacetop {
+    margin-left: 255px;
+    margin-top: 25px;
+    padding: 20px;
+    color: gold;
+    height: 100vh;
+    background-color: #121212;
+    position: relative; /* Add relative positioning */
+    overflow: auto; /* Add overflow for scrolling */
+}

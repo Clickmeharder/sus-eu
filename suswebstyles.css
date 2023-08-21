@@ -129,7 +129,7 @@ body {
 
 /*-----------------------------------*/
 .main-container {
-    margin-left: 200px; /* Adjust as needed based on the sidebar width */
+    margin-left: 0px; /* Adjust as needed based on the sidebar width */
     margin-right: 4px;
     margin-top: 8px;
     padding: 2px;

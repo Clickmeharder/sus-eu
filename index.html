@@ -48,13 +48,29 @@
             </div>
             <div class="content">
                 <div class="mainslideshow">
-                    <img src="images/Mainslide/mainslide1.jpg" alt="Slideshow Image 1">
-                    <img src="images/Mainslide/mainslide2.jpg" alt="Slideshow Image 2">
-                    <!-- Add more images as needed -->
+                    <img id="slideshowImage" src="images/Mainslide/image1.jpg" alt="Slideshow Image">
+                    <button id="nextButton">Next Image</button>
                 </div>
             </div>
         </div>
     </div>
     <script src="susterminal.js"></script>
+    <script>
+        const images = [
+            "mainslide1.jpg", // Replace with the actual image file names
+            "mainslide2.jpg"
+            // Add more image names as needed
+        ];
+
+        const imageElement = document.getElementById("slideshowImage");
+        const nextButton = document.getElementById("nextButton");
+        let currentIndex = 0;
+
+        nextButton.addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            const nextImage = "images/Mainslide/" + images[currentIndex];
+            imageElement.src = nextImage;
+        });
+    </script>
 </body>
 </html>

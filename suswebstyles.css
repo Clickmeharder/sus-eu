@@ -133,13 +133,13 @@ body {
     position: absolute;
     top: 15%; /* Adjust the vertical position as needed */
     left: 300px; /* Adjust the left space for the sidebar */
+    width: 480px; /* Adjust logo width as needed */
+    height: 480px; /* Adjust logo height as needed */
     transform: translate(-50%, -50%);
-    width: auto; /* Set width to auto to match the original image width */
-    height: auto; /* Set height to auto to match the original image height */
     background-image: url('images/Mainslide/mainslide1.png');
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.8; /* Adjust opacity as needed */
+    opacity: 1; /* Adjust opacity as needed */
     z-index: 11; /* Place the element above the sidebar content */
 }
 

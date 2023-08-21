@@ -133,10 +133,10 @@ body {
     position: absolute;
     top: 35%; /* Adjust the vertical position as needed */
     left: 260px; /* Adjust the left space for the sidebar */
-    width: 908px; /* Adjust logo width as needed */
-    height: 516px; /* Adjust logo height as needed */
+    width: 340px; /* Adjust logo width as needed */
+    height: 255px; /* Adjust logo height as needed */
     transform: translate(-50%, -50%);
-    background-image: url('images/Mainslide/mainslide1.png');
+    background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1; /* Adjust opacity as needed */

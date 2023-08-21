@@ -140,10 +140,7 @@ body {
     overflow: hidden;
 }
 
-/* ... (your existing styles) ... */
 
-
-/* Add this to your existing CSS */
 .mainslideshow {
     display: flex;
     align-items: center;

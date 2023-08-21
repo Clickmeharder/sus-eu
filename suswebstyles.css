@@ -134,8 +134,8 @@ body {
     top: 15%; /* Center the logo vertically */
     left: 50%; /* Center the logo horizontally */
     transform: translate(-50%, -50%);
-    width: 160px; /* Adjust logo width as needed */
-    height: 160px; /* Adjust logo height as needed */
+    width: 480px; /* Adjust logo width as needed */
+    height: 480px; /* Adjust logo height as needed */
     background-image: url('images/mainslide/mainslide1.png');
     background-size: contain;
     background-repeat: no-repeat;

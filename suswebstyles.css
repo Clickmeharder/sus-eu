@@ -139,17 +139,18 @@ body {
     border: 1px solid #333333; /* Add border to create a container effect */
     border-radius: 10px; /* Add border radius for rounded corners */
     overflow: hidden;
+    z-index: 6; /* Place the element above the sidebar content */
 }
 .mainslideshow {
     position: absolute;
     top: 6%; /* Adjust the vertical position as needed */
-    left: 6px; /* Adjust the left space for the sidebar */
+    right: 10px; /* Adjust the left space for the sidebar */
     width: 510px;
     height: 382.5px;
     background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1; /* Adjust opacity as needed */
-    z-index: 11; /* Place the element above the sidebar content */
+
 }
 

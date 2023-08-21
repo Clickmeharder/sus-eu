@@ -126,8 +126,8 @@ body {
 
 .adspacetop {
     margin: 0 auto; /* Center horizontally */
-    margin-top: 5px;
-    padding: 20px;
+    margin-top: 2px;
+    padding: 4px;
     color: gold;
     height: 200px; /* Set the height to 200px */
     width: 600px; /* Set the width to 600px */

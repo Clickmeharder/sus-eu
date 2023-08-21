@@ -131,14 +131,15 @@ body {
 
 .mainslideshow {
     position: absolute;
-    top: 15%; /* Center the logo vertically */
-    left: 50%; /* Center the logo horizontally */
+    top: 15%; /* Adjust the vertical position as needed */
+    left: 300px; /* Adjust the left space for the sidebar */
     transform: translate(-50%, -50%);
-    width: 480px; /* Adjust logo width as needed */
-    height: 480px; /* Adjust logo height as needed */
+    width: 480px; /* Adjust the width as needed */
+    height: 480px; /* Adjust the height as needed */
     background-image: url('images/Mainslide/mainslide1.png');
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.8; /* Adjust opacity as needed */
-    z-index: 11; /* Place the logo above the sidebar content */
+    z-index: 11; /* Place the element above the sidebar content */
 }
+

@@ -131,15 +131,12 @@ body {
 
 
 .mainslideshow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-height: 400px; /* Adjust the maximum height as needed */
-    overflow: hidden;
-    position: relative;
-    background-image: url('images/mainslide/mainslide1.jpg'); /* Path to your image */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-image: url('images/blackleathertexture.jpg'); /* Corrected syntax */
+    background-size: 93% 100%;
+    border-right: 1px solid #333333; /* Soft gray border */
+    z-index: 10; /* Adjust the z-index to make sure it's below the button */

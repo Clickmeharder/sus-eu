@@ -143,6 +143,7 @@ body {
 /* ... (your existing styles) ... */
 
 
+/* Add this to your existing CSS */
 .mainslideshow {
     display: flex;
     align-items: center;
@@ -150,22 +151,27 @@ body {
     width: 100%;
     max-height: 400px; /* Adjust the maximum height as needed */
     overflow: hidden;
+    position: relative;
 }
 
 .mainslideshow img {
     width: 100%;
     height: auto;
-    animation: slideshow 10s infinite; /* Adjust animation duration as needed */
 }
 
-@keyframes slideshow {
-    0%, 100% {
-        transform: translateX(0);
-    }
-    20%, 80% {
-        transform: translateX(-100%);
-    }
-    40%, 60% {
-        transform: translateX(-200%);
-    }
+#nextButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 8px 16px;
+    background-color: gold;
+    border: none;
+    color: #121212;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#nextButton:hover {
+    background-color: darkgoldenrod;
 }

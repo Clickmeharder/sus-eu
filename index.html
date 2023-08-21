@@ -40,7 +40,11 @@
             </div>
             <div class="adspacetop">
                 <!-- Content for ad space goes here -->
-                <div id="mediaContainer"></div> <!-- Container for media content -->
+                <img src="images/susadvert.jpg" alt="Advertisement Image">
+                <video autoplay muted controls="false" width="600" height="200" style="pointer-events: none;">
+                    <source src="images/susadvert.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div class="content">
                 <div class="mainpagelogodisplay">
@@ -52,47 +56,5 @@
         </div>
     </div>
     <script src="susterminal.js"></script>
-    <script>
-        // JavaScript code to display images and videos in the folder
-        const mediaContainer = document.getElementById("mediaContainer");
-
-        const mediaFiles = [
-            "images/ads/susadv.mp4", // Add more media file paths as needed
-            "images/mainsuslogo.png",
-            // ...
-        ];
-
-        mediaFiles.forEach((mediaPath) => {
-            const mediaElement = createMediaElement(mediaPath);
-            mediaContainer.appendChild(mediaElement);
-        });
-
-        function createMediaElement(path) {
-            const extension = path.split('.').pop().toLowerCase();
-            if (extension === 'mp4') {
-                const video = document.createElement("video");
-                video.autoplay = true;
-                video.muted = true;
-                video.controls = false;
-                video.width = 600;
-                video.height = 200;
-                video.style.pointerEvents = "none";
-                const source = document.createElement("source");
-                source.src = path;
-                source.type = "video/mp4";
-                video.appendChild(source);
-                return video;
-            } else if (extension === 'jpg' || extension === 'png') {
-                const image = document.createElement("img");
-                image.src = path;
-                image.alt = "Image";
-                // Set image dimensions and styles here
-                return image;
-            } else {
-                // Handle other media types if needed
-                return document.createElement("div");
-            }
-        }
-    </script>
 </body>
 </html>

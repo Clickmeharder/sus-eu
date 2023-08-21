@@ -20,7 +20,7 @@ body {
 
 .sidebarlogo {
     position: absolute;
-    top: 10%; /* Center the logo vertically */
+    top: 15%; /* Center the logo vertically */
     left: 50%; /* Center the logo horizontally */
     transform: translate(-50%, -50%);
     width: 160px; /* Adjust logo width as needed */

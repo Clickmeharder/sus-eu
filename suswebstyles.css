@@ -138,12 +138,8 @@ body {
     max-height: 400px; /* Adjust the maximum height as needed */
     overflow: hidden;
     position: relative;
-}
-
-.mainslideshow img {
-    width: 100%;
-    height: auto;
-    background-image: url('images/mainslide/mainslide1.png');
+    background-image: url('images/mainslide/mainslide1.jpg'); /* Path to your image */
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-

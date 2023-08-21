@@ -132,7 +132,7 @@ body {
     height: 200px; /* Set the height to 200px */
     width: 600px; /* Set the width to 600px */
     background-color: #121212;
-    border: 1px solid #FFD700;
+    border: 1px solid gold;
     position: relative;
     overflow: hidden;
 }

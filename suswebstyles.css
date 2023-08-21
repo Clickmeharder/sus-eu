@@ -126,13 +126,13 @@ body {
 
 .adspacetop {
     margin: 0 auto; /* Center horizontally */
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 20px;
     color: gold;
     height: 200px; /* Set the height to 200px */
     width: 600px; /* Set the width to 600px */
     background-color: #121212;
-    border: 4px solid #FFD700;
+    border: 1px solid #FFD700;
     position: relative;
     overflow: hidden;
 }

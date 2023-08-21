@@ -139,7 +139,7 @@ body {
     background-image: url('images/Mainslide/mainslide1.png');
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.8; /* Adjust opacity as needed */
+    opacity: 1; /* Adjust opacity as needed */
     z-index: 11; /* Place the element above the sidebar content */
 }
 

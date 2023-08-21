@@ -128,7 +128,7 @@ body {
 
 /*-----------------------------------*/
 .main-container {
-    margin-left: 4px; /* Adjust as needed based on the sidebar width */
+    margin-left: 6px; /* Adjust as needed based on the sidebar width */
     margin-right: 4px;
     margin-top: 4px;
     padding: 2px;
@@ -144,8 +144,8 @@ body {
     position: absolute;
     top: 6%; /* Adjust the vertical position as needed */
     left: 6px; /* Adjust the left space for the sidebar */
-    width: 595px;
-    height: 446px;
+    width: 510px;
+    height: 382.5px;
     background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;

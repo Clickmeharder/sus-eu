@@ -135,7 +135,6 @@ body {
     left: 150px; /* Adjust the left space for the sidebar */
     width: 595px;
     height: 446px;
-    transform: translateX(-50%); /* Center the element horizontally */
     background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;

@@ -127,18 +127,7 @@ body {
 	z-index: 9;
 }
 
-.adspacetop {
-    margin: 0 auto; /* Center horizontally */
-    margin-top: 1px;
-    padding: 2px;
-    color: gold;
-    height: 200px; /* Set the height to 200px */
-    width: 600px; /* Set the width to 600px */
-    background-color: #121212;
-    border: 1px solid #333333;
-    position: relative;
-    overflow: hidden;
-}
+/*-----------------------------------*/
 
 
 .mainslideshow {
@@ -154,21 +143,7 @@ body {
 .mainslideshow img {
     width: 100%;
     height: auto;
+    background-image: url('images/mainslide/mainslide1.png');
+    background-size: contain;
 }
 
-#nextButton {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 8px 16px;
-    background-color: gold;
-    border: none;
-    color: #121212;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-#nextButton:hover {
-    background-color: darkgoldenrod;
-}

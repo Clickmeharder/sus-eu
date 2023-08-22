@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[SuS]Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="sus-snakestyle.css">
+</head>
+<body>
+	<div class="container-holder">
+		<div class="displayhud-container">
+			<div class="buttons-container">
+				<button id="resetButton">Reset</button>
+				<button id="savescoreButton">Save Score</button>
+			</div>
+			<div id="speedIndicator" style="border: 2px outset grey; border-radius: 50%; padding: 10px; margin-left: 25px; margin-right: 25px; background: black;"></div>
+			<div id="scoreDisplay" style="border: 1px inset grey; padding: 10px; margin-left: 25px; margin-right: 25px; background: black;">Score: 0</div>
+		</div>
+		<div class="container">
+			<canvas id="gameCanvas" style="margin: 2px; border: 2px inset grey; border-radius: 15px; width: 100%; background-color: black;"></canvas>
+		</div>
+	</div>
+    <div class="highscores-container">
+		<h2>Highscores</h2>
+		<ul id="highscores-list"></ul>
+	</div>
+	
+    <script src="sus-snake.js"></script>
+</body>
+</html>

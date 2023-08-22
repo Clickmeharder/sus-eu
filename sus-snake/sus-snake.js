@@ -258,3 +258,37 @@ function resetHighscores() {
     ];
     displayHighscores();
 }
+
+// Add this code after your existing event listeners
+
+const gameCanvas = document.getElementById("gameCanvas");
+const hammer = new Hammer(gameCanvas);
+
+// Swipe gestures
+hammer.get("swipe").set({ direction: Hammer.DIRECTION_ALL });
+
+hammer.on("swipeup", function() {
+    direction = "up";
+});
+
+hammer.on("swipedown", function() {
+    direction = "down";
+});
+
+hammer.on("swipeleft", function() {
+    direction = "left";
+});
+
+hammer.on("swiperight", function() {
+    direction = "right";
+});
+
+// Double tap gesture
+hammer.on("doubletap", function() {
+    isShiftPressed = !isShiftPressed;
+    gameInterval = isShiftPressed ? 50 : 150;
+    speedIndicator.style.backgroundColor = isShiftPressed ? "green" : "red";
+    speedDisplay.textContent = isShiftPressed ? "Speed: Fast" : "Speed: Normal";
+    clearInterval(gameIntervalId);
+    gameIntervalId = setInterval(updateGameArea, gameInterval);
+});

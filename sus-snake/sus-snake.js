@@ -20,9 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let gameInterval = 150; // Base interval for normal speed
     const resetButton = document.getElementById("resetButton");
     resetButton.addEventListener("click", function() {
-        // Change the location to sus-snake.html
-        window.location.href = "sus-snake.html";
-    });
+        if (isMobileDevice()) {
+        	// Redirect to the mobile version
+        	window.location.href = "sus-snake-mobile.html";
+   	} else {
+       		// Redirect to the desktop version
+        	window.location.href = "sus-snake.html";
+    	}
+});
 
     function drawSnakePart(part, isFast) {
         context.fillStyle = isFast ? "blue" : "grey"; // Change color for fast speed

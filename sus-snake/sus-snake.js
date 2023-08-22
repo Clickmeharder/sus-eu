@@ -19,14 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let isShiftPressed = false;
     let gameInterval = 150; // Base interval for normal speed
     const resetButton = document.getElementById("resetButton");
-    resetButton.addEventListener("click", function() {
-        if (isMobileDevice()) {
-        	// Redirect to the mobile version
-        	window.location.href = "sus-snake-mobile.html";
-   	} else {
-       		// Redirect to the desktop version
-        	window.location.href = "sus-snake.html";
-    	}
+resetButton.addEventListener("click", function() {
+    location.reload();
 });
 
     function drawSnakePart(part, isFast) {

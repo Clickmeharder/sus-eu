@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const localHighscores = JSON.parse(localStorage.getItem('highscores')) || [];
 
     // Fetch highscores.json
-    fetch('.highscores.json')
+    fetch('./highscores.json')
         .then(response => response.json())
         .then(data => {
             // Merge and update highscores

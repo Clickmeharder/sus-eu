@@ -49,7 +49,7 @@ function mergeAndFindHighest(localHighscores, fetchedHighscores) {
 
 function updateHighscoresJSON(highscores) {
     const updatedData = JSON.stringify(highscores, null, 2);
-    const url = 'https://your-github-repo-url/highscores.json'; // Replace with the correct URL to your highscores.json
+    const url = 'https://clickmeharder.github.io/sus-eu/games/sus-snake/highscores.json'; // Replace with the correct URL to your highscores.json
 
     fetch(url, {
         method: 'PUT', // Use the appropriate HTTP method (PUT, POST, etc.)

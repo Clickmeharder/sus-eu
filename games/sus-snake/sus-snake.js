@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (newHead.x === food.x && newHead.y === food.y) {
             snake.push({});
             generateFood();
-            score += isShiftPressed ? 10 : 5; // Increment score for eating food
+            score += isShiftPressed ? 100 : 25; // Increment score for eating food
 			if (Math.random() <= 0.25) {
 				const randomEatIndex = Math.floor(Math.random() * eatSounds.length);
 				playSound(eatSounds[randomEatIndex]); // Play a random "eat" sound

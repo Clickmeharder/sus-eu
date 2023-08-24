@@ -1,0 +1,167 @@
+body {
+    margin: 20;
+    overflow: auto;
+    background: #1a0a03;
+}
+.container-holder {
+	border: 1px outset grey;
+	border-bottom: 2px outset grey;
+	border-radius: 15px;
+	padding: 12px;
+	background: #1e1e1e;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	
+}
+.container {
+	position: relative;
+	height: 100%;
+    padding: 8px;
+    border: 1px outset grey;
+	border-bottom: 2px outset grey;
+	border-radius: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+	background: #1a0a03;
+	overflow: auto;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+}
+
+
+canvas {
+    display: block;
+    background: black;
+    image-rendering: pixelated; /* Prevent browser antialiasing for pixel art */
+}
+
+.displayhud-container {
+    position: relative;
+    padding: 4px;
+	margin-bottom: 8px;
+	margin-left: 10%;
+    border: 2px outset grey;
+	border-radius: 15px;
+    width: 79%;
+    height: 75%;
+    color: green;
+    background: #1a0a03;
+    text-align: center; /* Center the contents horizontally */
+    display: flex;
+    flex-direction: row;
+    justify-content: left; /* Center the contents vertically */
+    align-items: center;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons-container {
+    display: flex;
+	background: black;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5; /* Push the buttons to the bottom */
+	margin-bottom: auto;
+	padding: 2px;
+	border: 1px inset #1a1a1a;
+	border-radius: 15px;
+
+}
+/* Style for the "Reset" button */
+#resetButton {
+    background-color: grey;
+    color: blue;
+    border: none;
+    border-radius: 10px; /* Adjust this value to control the roundness */
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetButton:hover {
+    background-color: darkred;
+	color: black;
+}
+
+/* Style for the "Reset" button */
+#savescoreButton {
+    background-color: grey;
+    color: blue;
+    border: none;
+    border-radius: 10px; /* Adjust this value to control the roundness */
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#savescoreButton:hover {
+    background-color: darkgreen;
+	color: black;
+}
+
+
+/* Style for the "Reset" button */
+#highscoresButton {
+    background-color: grey;
+    color: blue;
+    border: none;
+    border-radius: 10px; /* Adjust this value to control the roundness */
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#highscoresButton:hover {
+    background-color: blue;
+	color: black;
+}
+
+.score-display {
+    /* Styles for the score display element */
+	flex: 1;
+    margin-top: 5; /* Add some spacing between elements */
+	padding: 4px;
+
+}
+
+.speed-display {
+    /* Styles for the speed display element */
+	flex: 2;
+    margin: 10px; /* Add some spacing between elements */
+	padding: 4px;
+}
+
+
+.highscores-container {
+    margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highscores-container h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#highscores-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#highscores-list li {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+audio {
+    display: none;
+}

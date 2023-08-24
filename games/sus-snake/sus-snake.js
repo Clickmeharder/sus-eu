@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function() {
 				eatSound.addEventListener("ended", function() {
 			});
 			} else {
-				const randomGulpIndex = Math.floor(Math.random() * gulpSounds.length);
 				playSound("gulp_Sound1"); // Play a random "gulp" sound
 			}
 		}

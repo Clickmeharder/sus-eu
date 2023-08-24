@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
 	const dieSounds = ["die_Sound1", "die_Sound2", "die_Sound3"];
-	const gulpSounds = ["gulp_Sound1", "gulp_Sound2", "gulp_Sound3"];
 	const eatSounds = ["eat_Sound1", "eat_Sound2", "eat_Sound3", "eat_Sound4"];
     const canvas = document.getElementById("gameCanvas");
     const context = canvas.getContext("2d");
@@ -77,12 +76,20 @@ document.addEventListener("DOMContentLoaded", function() {
             snake.push({});
             generateFood();
             score += isShiftPressed ? 10 : 5; // Increment score for eating food
-			const randomIndex = Math.floor(Math.random() * eatSounds.length); //choose random sound
-			playSound(eatSounds[randomIndex]); // Play the "eat" sound
-            // Update the score display
-            const scoreDisplay = document.getElementById("scoreDisplay");
-            scoreDisplay.textContent = `Score: ${score}`;
-        }
+			if (Math.random() <= 0.25) {
+				const randomEatIndex = Math.floor(Math.random() * eatSounds.length);
+				playSound(eatSounds[randomEatIndex]); // Play a random "eat" sound
+				// Listen for the "ended" event on the eatSound audio element
+				eatSound.addEventListener("ended", function() {
+			});
+			} else {
+				const randomGulpIndex = Math.floor(Math.random() * gulpSounds.length);
+				playSound("gulp_Sound1"); // Play a random "gulp" sound
+			}
+		}
+        // Update the score display
+        const scoreDisplay = document.getElementById("scoreDisplay");
+        scoreDisplay.textContent = `Score: ${score}`;
 
         // Check for collision with walls or self
         if (

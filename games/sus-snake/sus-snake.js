@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 	const dieSounds = ["die_Sound1", "die_Sound2", "die_Sound3"];
+	const gulpSounds = ["gulp_Sound1", "gulp_Sound2", "gulp_Sound3"];
 	const eatSounds = ["eat_Sound1", "eat_Sound2", "eat_Sound3", "eat_Sound4"];
     const canvas = document.getElementById("gameCanvas");
     const context = canvas.getContext("2d");

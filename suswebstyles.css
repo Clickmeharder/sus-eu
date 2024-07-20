@@ -25,6 +25,8 @@ body {
     left: 0;
     height: 100vh;
     width: 20.5%;
+    max-width: 224px;
+    min-width: 224px;
     background-image: url('images/blackleathertexture.jpg'); /* Corrected syntax */
     background-size: 93% 100%;
     border-right: 2px outset #333333; /* Soft gray border */
@@ -93,13 +95,13 @@ body {
 /* ... (other CSS rules) ... */
 
 .content {
-    margin-left: 22%;
+    margin-left: 218px;
     margin-right: 4px;
     margin-top: 8px;
     padding: 2px;
     color: gold;
     height: 100vh;
-    width: 78%; /* Adjusted width to account for the sidebar width */
+    width: 82%; /* Adjusted width to account for the sidebar width */
     background-color: #1e1e1e;
     position: relative; /* Add relative positioning */
 	border: 1px inset #1a0a03;
@@ -136,14 +138,17 @@ body {
 }
 
 .mainslideshow {
-    margin: 5px;
-    width: 510px;
+    margin: auto;
+    width: 503px;
     height: 382.5px;
+    max-width: 40vw;
+    max-height: 28vw;
     background-image: url('images/Mainslide/eu-sus-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     border: 1px inset #1a1a1a;
     border-radius: 10px;
+	background-position: center;
     opacity: 0.9;
 }
 

@@ -41,7 +41,7 @@ JimBobbity" and then press tab to Message me on Entropia universe
 </div>
 <div id="merchantcommentbox" style="opacity:1;color: #222;font-family:lucida console;background:#3a3a3a;border:3px outset #000;padding:4px;">
 <h1 style="font-size:14px;margin:auto;text-align:center;">ATTENTION COLONIST</h1>
-<p id="merchantcomment" style="text-align:left;border:3px inset #444;font-family:lucida;background:#00000087;color:green;opacity:1;">
+<p id="merchantcomment" style="text-align:left;border:3px inset #444;font-family:lucida;background:#00000087;color:green;opacity:1;height: 102px;overflow-y: scroll;">
 [TOP SECRET]<br>
 [CLASSIFIED INTEL - EYES ONLY]<br><br>
 From: General Jimbobbityboo<br>
@@ -92,13 +92,15 @@ End of Report<br><br>
 					}
 					body {
 						background-color: #333;
-						background-image:;
+						background-image: ;
 						background-size: cover;
 						background-repeat: no-repeat;
 						background-position: center;
 						color: ;
-						opacity:1;
-						width: 100vw;
+						opacity: 1;
+						width: 99vw;
+						overflow: hidden;
+						overflow-y: auto;
 					}
 					input {
 						width: 85x !important;
@@ -226,6 +228,30 @@ End of Report<br><br>
 					}
 
 					.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+						background: #555; /* Background of the scrollbar thumb on hover */
+					}
+					
+					body {
+						-ms-overflow-style: none;  /* Hides scrollbar in IE and Edge */
+						scrollbar-width: 1px;
+						scrollbar-opacity:0.1!important;/* Hides scrollbar in Firefox */
+					}
+							/* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+					-webkit-scrollbar {
+						width: 7px; /* Width of the scrollbar */
+					}
+
+					-webkit-scrollbar-track {
+					  opacity:0.1;
+						background: ; /* Background of the scrollbar track */
+					}
+
+					-webkit-scrollbar-thumb {
+						background: #888; /* Background of the scrollbar thumb */
+						border-radius: 6px; /* Round edges of the scrollbar thumb */
+					}
+
+					-webkit-scrollbar-thumb:hover {
 						background: #555; /* Background of the scrollbar thumb on hover */
 					}
 					#gameArea {

@@ -357,7 +357,7 @@ body {
     z-index: 1;
     width: 20px; /* Adjust width as needed */
     height: 60px; /* Adjust height as needed */
-    left: 20.5%; /* Position on the left side */
+    left: 222px;/* Position on the left side */
     top: 10%; /* Center vertically */
     transform: translateY(-50%); /* Center vertically */
     background: radial-gradient(circle, #666666 10%, #444444 40%, #333333 60%, #222222 90%); /* Silver and dark gray gradient */
